@@ -79,6 +79,8 @@ If you wish to change any of the package's default options, you will first need 
 php artisan config:publish silber/client-templates
 ```
 
+This will create a new config file at `app/config/packages/silber/client-templates/config.php`. You can now edit this file to change the default options.
+
 ### Template Type
 
 By default, the `type` attribute is set to `text/ng-template`, which is what AngularJS uses. This can be changed in the package's configuration file. For example:
