@@ -1,0 +1,25 @@
+{
+    "name": "silber/client-templates",
+    "description": "Renders client templates from separate files into the main view of your application",
+    "keywords": [
+        "templates",
+        "javascript",
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "Joseph Silber",
+            "email": "contact@josephsilber.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "symfony/finder": "~2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Silber\\Templates\\": "src"
+        }
+    },
+    "minimum-stability": "stable"
+}
