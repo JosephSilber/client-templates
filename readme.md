@@ -105,7 +105,7 @@ This will then output templates with their file's extension intact. For example:
 
 ### Exclude Pattern
 
-Sometimes you may wish to exlude some files or directories from being rendered as their own templates:
+Sometimes you may wish to exclude some files or directories from being rendered as their own templates:
 
 ```php
 'exclude' => '_includes'
@@ -121,7 +121,7 @@ By default, the base directory for the templates is in the views directory. If y
 
 ## Contributing
 
-Thank you for considering contributing ! This project follows [Laravel's coding style](http://laravel.com/docs/4.2/contributions#coding-style).
+Thank you for considering contributing! This project follows [Laravel's coding style](http://laravel.com/docs/4.2/contributions#coding-style).
 
 ### License
 
