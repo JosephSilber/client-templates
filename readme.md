@@ -44,7 +44,7 @@ Here's a sample directory structure:
 
 ![A sample template directory structure](http://i.imgur.com/WPPoDfA.png)
 
-Whithin each of those files, you will have only the HTML for that particular template.
+Within each of those files, you will have only the HTML for that particular template.
 
 Then, within your main `index.blade.php` file - right before the closing `<body>` tag - add this tiny piece of code:
 
