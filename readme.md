@@ -25,13 +25,13 @@ Once the composer installation completes, you can add the service provider and t
 1) Add a new item to the `providers` array:
 
 ```
-'Silber\Templates\TemplatesServiceProvider'
+'Silber\Templates\Laravel\TemplatesServiceProvider'
 ```
 
 2) Add a new item to the `aliases` array:
 
 ```
-'Templates' => 'Silber\Templates\TemplatesFacade'
+'Templates' => 'Silber\Templates\Laravel\TemplatesFacade'
 ```
 
 That's it! You're all set to go.
@@ -76,10 +76,10 @@ You can now use these templates in your favorite JS framework!
 If you wish to change any of the package's default options, you will first need to publish the configuration file to your app's `config` directory. You can do this by running the following artisan command:
 
 ```
-php artisan config:publish silber/client-templates
+php artisan vendor:publish --provider="Silber\Templates\Laravel\TemplatesServiceProvider"
 ```
 
-This will create a new config file at `app/config/packages/silber/client-templates/config.php`. You can now edit this file to change the default options.
+This will create a new config file at `config/templates.php`. You can now edit this file to change the default options.
 
 ### Template Type
 

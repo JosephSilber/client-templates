@@ -1,4 +1,4 @@
-<?php namespace Silber\Templates;
+<?php namespace Silber\Templates\Laravel;
 
 use Illuminate\Support\Facades\Facade;
 
