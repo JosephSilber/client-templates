@@ -42,7 +42,7 @@ Now that you're all set up, you can start by actually creating your templates. W
 
 Here's a sample directory structure:
 
-![A sample template directory structure](http://i.imgur.com/HYxsTzK.png)
+![A sample template directory structure](http://i.imgur.com/WPPoDfA.png)
 
 Whithin each of those files, you will have only the HTML for that particular template.
 
