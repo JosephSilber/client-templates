@@ -53,13 +53,17 @@ class TemplatesServiceProvider extends ServiceProvider {
 	 */
 	protected function getViewsBasePath()
 	{
-		$path = $this->app['config']->get('templates.views', function()
+		$path = $this->app['config']->get('templates.views');
+
+		if (is_null($path))
 		{
-			return $this->app['config']->get('view.paths.0', function()
-			{
-				return base_path('resources/views');
-			});
-		});
+			$path = $this->app['config']->get('view.paths.0');
+		}
+
+		if (is_null($path))
+		{
+			$path = base_path('resources/views');
+		}
 
 		return realpath($path);
 	}
