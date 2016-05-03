@@ -14,6 +14,7 @@ return [
     | which is what the popular Angular JS framework uses.
     |
     */
+
     'type' => 'text/ng-template',
 
     /*
@@ -29,6 +30,7 @@ return [
     | "id" attribute's value will be "orders/index.html".
     |
     */
+
     'strip' => true,
 
     /*
@@ -43,6 +45,7 @@ return [
     | in them, set this to "_", and they will all be ignored.
     |
     */
+
     'exclude' => null,
 
     /*
@@ -57,6 +60,7 @@ return [
     | intelligently use your app's default views directory.
     |
     */
+
     'views' => null,
 
 ];
