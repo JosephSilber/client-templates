@@ -26,7 +26,7 @@ class TemplatesServiceProvider extends ServiceProvider {
 	{
 		$this->mergeConfigFrom(__DIR__.'/../config.php', 'templates');
 
-		$this->app->bindShared('Silber\Templates\Templates', function($app)
+		$this->app->singleton('Silber\Templates\Templates', function($app)
 		{
 			$views = $this->getViewsBasePath();
 
